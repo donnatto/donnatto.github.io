@@ -481,6 +481,10 @@ button:focus {
     }
 }
 
+.only-collapsed {
+    display: none;
+}
+
 .home_banner_area .banner_inner {
     width: 100%;
 }
@@ -497,8 +501,14 @@ button:focus {
 }
 
 @media (max-width: 991px) {
+    .only-fullscreen {
+        display: none;
+    }
     .home_banner_area .banner_inner .home_right_img {
         display: none;
+    }
+    .only-collapsed {
+        display: block;
     }
 }
 
